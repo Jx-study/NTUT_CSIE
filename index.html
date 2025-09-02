@@ -1,120 +1,145 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="國立臺北科技大學資訊工程系校園互動導覽系統">
-    <meta name="keywords" content="北科大, 資工系, 校園導覽, 忠孝藝文廊道">
-    <meta name="author" content="NTUT CSIE Students">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="國立臺北科技大學資訊工程系校園互動導覽系統"
+    />
+    <meta name="keywords" content="北科大, 資工系, 校園導覽, 忠孝藝文廊道" />
+    <meta name="author" content="NTUT CSIE Students" />
+
     <title>北科資工系 - 校園導覽專案</title>
-    
+
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css">
-    
+    <link rel="stylesheet" href="style.css" />
+
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
-    
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHRleHQgeT0iLjllbSIgZm9udC1zaXplPSIzMiI+🏫</text></svg>">
-</head>
-<body>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHRleHQgeT0iLjllbSIgZm9udC1zaXplPSIzMiI+🏫</text></svg>"
+    />
+  </head>
+  <body>
     <div class="container">
-        <header class="fade-in">
-            <h1>北科大資工系 - 校園導覽專案</h1>
-        </header>
+      <header class="fade-in">
+        <h1>北科大資工系 - 校園導覽專案</h1>
+      </header>
 
-        <main>
-            <section class="highlight-box fade-in">
-                <h2>歡迎使用校園導覽系統</h2>
-                <p>這是北科大資工系學生製作的校園互動導覽系統，提供詳細的地標介紹與位置資訊。</p>
-            </section>
+      <main>
+        <section class="highlight-box fade-in">
+          <h2>歡迎使用校園導覽系統</h2>
+          <p>
+            這是北科大資工系學生製作的校園互動導覽系統，提供詳細的地標介紹與位置資訊。
+          </p>
+        </section>
 
-            <section class="fade-in">
-                <h2>重點推薦：忠孝藝文廊道</h2>
-                
-                <div class="location-spotlight">
-                    <blockquote>校園文化藝術的心臟地帶</blockquote>
-                    
-                    <div class="image-gallery">
-                        <div class="image-placeholder">
-                            <img src="./images/zhongxiao_entrance.jpg" alt="忠孝藝文廊道入口" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-                            <div class="placeholder-text" style="display:none; padding: 2rem; background: #f0f2f5; border: 2px dashed #ccc; text-align: center; border-radius: 8px;">
-                                忠孝藝文廊道入口實景<br>
-                                <small>等待實際照片上傳中...</small>
-                            </div>
-                        </div>
-                        <div class="image-placeholder">
-                            <img src="./images/corridor_inside.jpg" alt="廊道內部環境" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-                            <div class="placeholder-text" style="display:none; padding: 2rem; background: #f0f2f5; border: 2px dashed #ccc; text-align: center; border-radius: 8px;">
-                                廊道內部藝術空間<br>
-                                <small>等待實際照片上傳中...</small>
-                            </div>
-                        </div>
-                    </div>
+        <section class="fade-in">
+          <h2>重點推薦：忠孝藝文廊道</h2>
 
-                    <div class="location-info">
-                        <h3>詳細位置資訊</h3>
-                        <ul>
-                            <li><strong>名稱</strong>：忠孝藝文廊道</li>
-                            <li><strong>關鍵位置</strong>：<span class="key-clue">入口位於行政大樓旁邊</span></li>
-                            <li><strong>特色</strong>：校園主要藝術展示空間，定期舉辦各類展覽</li>
-                            <li><strong>開放時間</strong>：24小時開放參觀</li>
-                            <li><strong>建築特色</strong>：現代化設計融合傳統藝術元素</li>
-                            <li><strong>展覽內容</strong>：學生作品、教師創作、客座藝術家展品</li>
-                        </ul>
+          <div class="location-spotlight">
+            <blockquote>校園文化藝術的心臟地帶</blockquote>
 
-                        <div class="special-note">
-                            <h4>探訪建議</h4>
-                            <p>建議從行政大樓開始，沿著指標尋找藝文廊道入口。廊道內光線充足，適合拍照留念。定期更換的藝術作品讓每次造訪都有新的驚喜。</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-
-        <footer class="fade-in">
-            <hr>
-            <div class="footer-info">
-                <p><strong>開發團隊</strong>：國立臺北科技大學 資訊工程系學會</p>
-                <p><em>© 2025 NTUT CSIE</em></p>
+            <div class="image-gallery">
+              <div class="image-placeholder">
+                <img
+                  src="./images/zhongxiao_entrance.jpg"
+                  alt="忠孝藝文廊道入口"
+                  onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"
+                />
+              </div>
+              <div class="image-placeholder">
+                <img
+                  src="./images/corridor_inside.jpg"
+                  alt="廊道內部環境"
+                  onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"
+                />
+              </div>
             </div>
-        </footer>
+
+            <div class="location-info">
+              <h3>詳細位置資訊</h3>
+              <ul>
+                <li><strong>名稱</strong>：忠孝藝文廊道</li>
+                <li>
+                  <strong>關鍵位置</strong>：<span class="key-clue"
+                    >入口位於行政大樓旁邊</span
+                  >
+                </li>
+                <li>
+                  <strong>特色</strong>：校園主要藝術展示空間，定期舉辦各類展覽
+                </li>
+                <li><strong>開放時間</strong>：24小時開放參觀</li>
+                <li><strong>建築特色</strong>：現代化設計融合傳統藝術元素</li>
+                <li>
+                  <strong>展覽內容</strong>：學生作品、教師創作、客座藝術家展品
+                </li>
+              </ul>
+
+              <div class="special-note">
+                <h4>探訪建議</h4>
+                <p>
+                  建議從行政大樓開始，沿著指標尋找藝文廊道入口。廊道內光線充足，適合拍照留念。定期更換的藝術作品讓每次造訪都有新的驚喜。
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="fade-in">
+        <hr />
+        <div class="footer-info">
+          <p><strong>開發團隊</strong>：國立臺北科技大學 資訊工程系學會</p>
+          <p><em>© 2025 NTUT CSIE</em></p>
+        </div>
+      </footer>
     </div>
 
     <script>
-        // 頁面載入動畫
-        document.addEventListener('DOMContentLoaded', function() {
-            const elements = document.querySelectorAll('.fade-in');
-            elements.forEach((el, index) => {
-                setTimeout(() => {
-                    el.style.opacity = '1';
-                    el.style.transform = 'translateY(0)';
-                }, index * 200);
-            });
+      // 頁面載入動畫
+      document.addEventListener("DOMContentLoaded", function () {
+        const elements = document.querySelectorAll(".fade-in");
+        elements.forEach((el, index) => {
+          setTimeout(() => {
+            el.style.opacity = "1";
+            el.style.transform = "translateY(0)";
+          }, index * 200);
         });
+      });
 
-        // 圖片錯誤處理
-        document.querySelectorAll('img').forEach(img => {
-            img.addEventListener('error', function() {
-                this.style.display = 'none';
-                const placeholder = this.nextElementSibling;
-                if (placeholder && placeholder.classList.contains('placeholder-text')) {
-                    placeholder.style.display = 'block';
-                }
-            });
+      // 圖片錯誤處理
+      document.querySelectorAll("img").forEach((img) => {
+        img.addEventListener("error", function () {
+          this.style.display = "none";
+          const placeholder = this.nextElementSibling;
+          if (
+            placeholder &&
+            placeholder.classList.contains("placeholder-text")
+          ) {
+            placeholder.style.display = "block";
+          }
         });
+      });
 
-        // 簡單的互動效果
-        document.querySelectorAll('.key-clue').forEach(clue => {
-            clue.addEventListener('click', function() {
-                this.style.background = '#ffd700';
-                this.style.transform = 'scale(1.05)';
-                setTimeout(() => {
-                    this.style.transform = 'scale(1)';
-                }, 300);
-            });
+      // 簡單的互動效果
+      document.querySelectorAll(".key-clue").forEach((clue) => {
+        clue.addEventListener("click", function () {
+          this.style.background = "#ffd700";
+          this.style.transform = "scale(1.05)";
+          setTimeout(() => {
+            this.style.transform = "scale(1)";
+          }, 300);
         });
+      });
     </script>
-</body>
+  </body>
 </html>
